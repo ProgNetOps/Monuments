@@ -1,0 +1,226 @@
+2026-03-03 23:01:04.180 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-03-03 23:01:04.481 +01:00 [DBG] Hosting starting
+2026-03-03 23:01:04.549 +01:00 [INF] User profile is available. Using 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-03 23:01:04.604 +01:00 [DBG] Reading data from file 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys\key-31127c11-55bf-42d8-acee-4005f787b995.xml'.
+2026-03-03 23:01:04.661 +01:00 [DBG] Found key {31127c11-55bf-42d8-acee-4005f787b995}.
+2026-03-03 23:01:04.691 +01:00 [DBG] Considering key {31127c11-55bf-42d8-acee-4005f787b995} with expiration date 2026-05-24 22:21:24Z as default key.
+2026-03-03 23:01:04.702 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-03-03 23:01:04.713 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-03-03 23:01:04.719 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-03-03 23:01:04.731 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-03-03 23:01:04.739 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-03-03 23:01:04.764 +01:00 [DBG] Using key {31127c11-55bf-42d8-acee-4005f787b995} as the default key.
+2026-03-03 23:01:04.771 +01:00 [DBG] Key ring with default key {31127c11-55bf-42d8-acee-4005f787b995} was loaded during application startup.
+2026-03-03 23:01:04.791 +01:00 [DBG] Middleware loaded
+2026-03-03 23:01:04.824 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-03-03 23:01:04.836 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-03-03 23:01:05.782 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-03-03 23:01:05.792 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-03-03 23:01:05.843 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-03-03 23:01:07.101 +01:00 [INF] Now listening on: https://localhost:7055
+2026-03-03 23:01:07.555 +01:00 [INF] Now listening on: http://localhost:5015
+2026-03-03 23:01:07.567 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-03-03 23:01:07.570 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-03-03 23:01:07.573 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-03-03 23:01:07.577 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-03-03 23:01:07.609 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-03-03 23:01:07.847 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-03-03 23:01:07.923 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-03-03 23:01:08.126 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-03 23:01:08.271 +01:00 [INF] Hosting environment: Development
+2026-03-03 23:01:08.274 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-03-03 23:01:08.276 +01:00 [DBG] Hosting started
+2026-03-03 23:02:45.846 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" accepted.
+2026-03-03 23:02:45.849 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" started.
+2026-03-03 23:02:45.961 +01:00 [DBG] Connection 0HNJPE2CUBKUD established using the following protocol: "Tls13"
+2026-03-03 23:02:46.049 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-03-03 23:02:46.050 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-03 23:02:46.098 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-03-03 23:02:46.108 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 66.005ms
+2026-03-03 23:02:46.281 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.2308ms
+2026-03-03 23:02:46.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-03-03 23:02:46.449 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.7652ms
+2026-03-03 23:02:55.931 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" received FIN.
+2026-03-03 23:02:55.952 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-03 23:02:55.960 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" is closed. The last processed stream ID was 5.
+2026-03-03 23:02:55.965 +01:00 [DBG] The connection queue processing loop for 0HNJPE2CUBKUD completed.
+2026-03-03 23:02:55.970 +01:00 [DBG] Connection id "0HNJPE2CUBKUD" stopped.
+2026-03-03 23:03:19.388 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" accepted.
+2026-03-03 23:03:19.393 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" started.
+2026-03-03 23:03:19.408 +01:00 [DBG] Connection 0HNJPE2CUBKUE established using the following protocol: "Tls13"
+2026-03-03 23:03:19.424 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v2/cities?pageNumber=1&pageSize=10 - null null
+2026-03-03 23:03:19.532 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v2/cities'
+2026-03-03 23:03:19.538 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCities (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities' is valid for the request path '/api/v2/cities'
+2026-03-03 23:03:19.552 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCities (Monuments.API)'
+2026-03-03 23:03:19.707 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:03:19.721 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:03:19.731 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:03:19.744 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:03:19.748 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v2/cities?pageNumber=1&pageSize=10 - 401 0 null 323.77ms
+2026-03-03 23:04:03.288 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=false - null null
+2026-03-03 23:04:03.298 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v2/cities/2'
+2026-03-03 23:04:03.301 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities/{id}' is valid for the request path '/api/v2/cities/2'
+2026-03-03 23:04:03.306 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)'
+2026-03-03 23:04:03.313 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:04:03.316 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:04:03.320 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:04:03.324 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:04:03.328 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=false - 401 0 null 40.3241ms
+2026-03-03 23:04:26.800 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" received FIN.
+2026-03-03 23:04:26.804 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" is closed. The last processed stream ID was 3.
+2026-03-03 23:04:26.804 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-03 23:04:26.817 +01:00 [DBG] The connection queue processing loop for 0HNJPE2CUBKUE completed.
+2026-03-03 23:04:26.821 +01:00 [DBG] Connection id "0HNJPE2CUBKUE" stopped.
+2026-03-03 23:04:37.638 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" accepted.
+2026-03-03 23:04:37.641 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" started.
+2026-03-03 23:04:37.651 +01:00 [DBG] Connection 0HNJPE2CUBKUF established using the following protocol: "Tls13"
+2026-03-03 23:04:37.654 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=false - null null
+2026-03-03 23:04:37.661 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v2/cities/2'
+2026-03-03 23:04:37.666 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities/{id}' is valid for the request path '/api/v2/cities/2'
+2026-03-03 23:04:37.672 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)'
+2026-03-03 23:04:37.678 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:04:37.684 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:04:37.687 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:04:37.690 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:04:37.693 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=false - 401 0 null 38.344ms
+2026-03-03 23:05:04.192 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=true - null null
+2026-03-03 23:05:04.199 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v2/cities/2'
+2026-03-03 23:05:04.202 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities/{id}' is valid for the request path '/api/v2/cities/2'
+2026-03-03 23:05:04.205 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)'
+2026-03-03 23:05:04.208 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:05:04.211 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:05:04.216 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:05:04.219 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:05:04.222 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=true - 401 0 null 29.6554ms
+2026-03-03 23:06:09.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-03-03 23:06:09.766 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 226.6498ms
+2026-03-03 23:06:09.826 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/favicon.ico - null null
+2026-03-03 23:06:09.833 +01:00 [DBG] No candidates found for the request path '/favicon.ico'
+2026-03-03 23:06:09.835 +01:00 [DBG] Request did not match any endpoints
+2026-03-03 23:06:09.837 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:06:09.839 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/favicon.ico - 404 0 null 13.4957ms
+2026-03-03 23:06:09.846 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/favicon.ico, Response status code: 404
+2026-03-03 23:07:00.425 +01:00 [DBG] Connection id "0HNJPE2CUBKUG" accepted.
+2026-03-03 23:07:00.434 +01:00 [DBG] Connection id "0HNJPE2CUBKUG" received FIN.
+2026-03-03 23:07:00.437 +01:00 [DBG] Connection id "0HNJPE2CUBKUG" started.
+2026-03-03 23:07:00.470 +01:00 [DBG] Connection id "0HNJPE2CUBKUH" accepted.
+2026-03-03 23:07:00.477 +01:00 [DBG] Connection id "0HNJPE2CUBKUH" started.
+2026-03-03 23:07:00.485 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-03-03 23:07:00.489 +01:00 [DBG] Connection 0HNJPE2CUBKUH established using the following protocol: "Tls13"
+2026-03-03 23:07:00.531 +01:00 [DBG] Connection id "0HNJPE2CUBKUG" stopped.
+2026-03-03 23:07:00.535 +01:00 [DBG] Connection id "0HNJPE2CUBKUG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-03 23:07:00.542 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7055/api/authentication/authenticate - application/json 111
+2026-03-03 23:07:00.549 +01:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2026-03-03 23:07:00.552 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2026-03-03 23:07:00.577 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:07:00.582 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:07:00.586 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:07:00.648 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller Monuments.API.Controllers.AuthenticationController (Monuments.API).
+2026-03-03 23:07:00.654 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-03 23:07:00.660 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-03 23:07:00.666 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2026-03-03 23:07:00.671 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-03 23:07:00.676 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2026-03-03 23:07:00.686 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.AuthenticationController (Monuments.API)
+2026-03-03 23:07:00.690 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.AuthenticationController (Monuments.API)
+2026-03-03 23:07:00.703 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2026-03-03 23:07:00.711 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2026-03-03 23:07:00.718 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2026-03-03 23:07:00.722 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2026-03-03 23:07:00.752 +01:00 [DBG] Connection id "0HNJPE2CUBKUH", Request id "0HNJPE2CUBKUH:00000001": started reading request body.
+2026-03-03 23:07:00.756 +01:00 [DBG] Connection id "0HNJPE2CUBKUH", Request id "0HNJPE2CUBKUH:00000001": done reading request body.
+2026-03-03 23:07:00.973 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:07:00.977 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:07:00.984 +01:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2026-03-03 23:07:00.996 +01:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:07:01.099 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2026-03-03 23:07:01.107 +01:00 [DBG] No information found on request to perform content negotiation.
+2026-03-03 23:07:01.110 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-03-03 23:07:01.113 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-03-03 23:07:01.116 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2026-03-03 23:07:01.119 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-03 23:07:01.137 +01:00 [INF] Executed action Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API) in 448.5058ms
+2026-03-03 23:07:01.141 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:07:01.143 +01:00 [DBG] Connection id "0HNJPE2CUBKUH" completed keep alive response.
+2026-03-03 23:07:01.145 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7055/api/authentication/authenticate - 200 null text/plain; charset=utf-8 603.4361ms
+2026-03-03 23:07:49.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=true - null null
+2026-03-03 23:07:49.222 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v2/cities/2'
+2026-03-03 23:07:49.229 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities/{id}' is valid for the request path '/api/v2/cities/2'
+2026-03-03 23:07:49.241 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCity (Monuments.API)'
+2026-03-03 23:07:49.252 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:07:49.260 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:07:49.267 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:07:49.270 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:07:49.273 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v2/cities/2?includeMonuments=true - 401 0 null 84.4567ms
+2026-03-03 23:09:22.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/api/v1/cities?pageNumber=1&pageSize=10 - null null
+2026-03-03 23:09:22.310 +01:00 [DBG] 1 candidate(s) found for the request path '/api/v1/cities'
+2026-03-03 23:09:22.317 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.CitiesController.GetCities (Monuments.API)' with route pattern 'api/v{version:apiVersion}/cities' is valid for the request path '/api/v1/cities'
+2026-03-03 23:09:22.321 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.CitiesController.GetCities (Monuments.API)'
+2026-03-03 23:09:22.324 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:09:22.328 +01:00 [DBG] Policy authentication schemes  did not succeed
+2026-03-03 23:09:22.333 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-03 23:09:22.336 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-03 23:09:22.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/api/v1/cities?pageNumber=1&pageSize=10 - 401 0 null 37.7307ms
+2026-03-03 23:27:51.799 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" received FIN.
+2026-03-03 23:27:51.808 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" is closed. The last processed stream ID was 11.
+2026-03-03 23:27:51.808 +01:00 [DBG] The connection queue processing loop for 0HNJPE2CUBKUF completed.
+2026-03-03 23:27:51.813 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-03-03 23:27:51.862 +01:00 [DBG] Connection id "0HNJPE2CUBKUF" stopped.
+2026-03-03 23:57:51.693 +01:00 [DBG] Connection id "0HNJPE2CUBKUI" accepted.
+2026-03-03 23:57:51.696 +01:00 [DBG] Connection id "0HNJPE2CUBKUI" started.
+2026-03-03 23:57:51.703 +01:00 [DBG] Connection 0HNJPE2CUBKUI established using the following protocol: "Tls13"
+2026-03-03 23:57:51.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-03-03 23:57:51.848 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-03-03 23:57:51.854 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-03-03 23:57:51.880 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-03-03 23:57:51.902 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-03 23:57:51.903 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-03-03 23:57:51.914 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-03-03 23:57:51.920 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-03-03 23:57:51.924 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 216.9471ms
+2026-03-03 23:57:51.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 24.191ms
+2026-03-03 23:57:51.934 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.1323ms
+2026-03-03 23:57:52.185 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-03-03 23:57:52.221 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.8485ms
+2026-03-03 23:59:36.115 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7055/api/authentication/authenticate - application/json 50
+2026-03-03 23:59:36.122 +01:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2026-03-03 23:59:36.130 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2026-03-03 23:59:36.134 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:59:36.138 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-03-03 23:59:36.143 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:59:36.146 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller Monuments.API.Controllers.AuthenticationController (Monuments.API).
+2026-03-03 23:59:36.151 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-03-03 23:59:36.156 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-03-03 23:59:36.162 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2026-03-03 23:59:36.169 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-03-03 23:59:36.174 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2026-03-03 23:59:36.181 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.AuthenticationController (Monuments.API)
+2026-03-03 23:59:36.185 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.AuthenticationController (Monuments.API)
+2026-03-03 23:59:36.190 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2026-03-03 23:59:36.196 +01:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2026-03-03 23:59:36.202 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2026-03-03 23:59:36.206 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2026-03-03 23:59:36.216 +01:00 [DBG] Connection id "0HNJPE2CUBKUI", Request id "0HNJPE2CUBKUI:00000009": started reading request body.
+2026-03-03 23:59:36.221 +01:00 [DBG] Connection id "0HNJPE2CUBKUI", Request id "0HNJPE2CUBKUI:00000009": done reading request body.
+2026-03-03 23:59:36.228 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:59:36.233 +01:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:59:36.237 +01:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2026-03-03 23:59:36.246 +01:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'Monuments.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2026-03-03 23:59:36.253 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2026-03-03 23:59:36.274 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2026-03-03 23:59:36.282 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-03-03 23:59:36.286 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-03 23:59:36.346 +01:00 [INF] Executed action Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API) in 165.6262ms
+2026-03-03 23:59:36.356 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.AuthenticationController.Authenticate (Monuments.API)'
+2026-03-03 23:59:36.360 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7055/api/authentication/authenticate - 200 283 application/json; charset=utf-8 244.8509ms

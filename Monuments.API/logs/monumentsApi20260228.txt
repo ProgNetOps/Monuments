@@ -1,0 +1,103 @@
+2026-02-28 00:44:51.815 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-28 00:44:52.012 +01:00 [DBG] Hosting starting
+2026-02-28 00:44:52.050 +01:00 [INF] User profile is available. Using 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-28 00:44:52.071 +01:00 [DBG] Reading data from file 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys\key-31127c11-55bf-42d8-acee-4005f787b995.xml'.
+2026-02-28 00:44:52.086 +01:00 [DBG] Found key {31127c11-55bf-42d8-acee-4005f787b995}.
+2026-02-28 00:44:52.102 +01:00 [DBG] Considering key {31127c11-55bf-42d8-acee-4005f787b995} with expiration date 2026-05-24 22:21:24Z as default key.
+2026-02-28 00:44:52.109 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-28 00:44:52.114 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-02-28 00:44:52.117 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-28 00:44:52.127 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-02-28 00:44:52.132 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-02-28 00:44:52.149 +01:00 [DBG] Using key {31127c11-55bf-42d8-acee-4005f787b995} as the default key.
+2026-02-28 00:44:52.152 +01:00 [DBG] Key ring with default key {31127c11-55bf-42d8-acee-4005f787b995} was loaded during application startup.
+2026-02-28 00:44:52.163 +01:00 [DBG] Middleware loaded
+2026-02-28 00:44:52.170 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-28 00:44:52.172 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-28 00:44:52.401 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-28 00:44:52.407 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-28 00:44:52.416 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-28 00:44:52.858 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-28 00:44:52.864 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-28 00:44:52.910 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-28 00:44:52.911 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-28 00:44:52.913 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-28 00:44:52.914 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-28 00:44:52.926 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:44:52.929 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:44:52.989 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-28 00:44:53.904 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-28 00:44:54.205 +01:00 [INF] Hosting environment: Development
+2026-02-28 00:44:54.207 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-28 00:44:54.216 +01:00 [DBG] Hosting started
+2026-02-28 00:46:05.488 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-28 00:46:05.776 +01:00 [DBG] Hosting starting
+2026-02-28 00:46:05.818 +01:00 [INF] User profile is available. Using 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-28 00:46:05.849 +01:00 [DBG] Reading data from file 'C:\Users\suber\AppData\Local\ASP.NET\DataProtection-Keys\key-31127c11-55bf-42d8-acee-4005f787b995.xml'.
+2026-02-28 00:46:05.868 +01:00 [DBG] Found key {31127c11-55bf-42d8-acee-4005f787b995}.
+2026-02-28 00:46:05.896 +01:00 [DBG] Considering key {31127c11-55bf-42d8-acee-4005f787b995} with expiration date 2026-05-24 22:21:24Z as default key.
+2026-02-28 00:46:05.906 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-28 00:46:05.911 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-02-28 00:46:05.914 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-28 00:46:05.922 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-02-28 00:46:05.925 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-02-28 00:46:05.930 +01:00 [DBG] Using key {31127c11-55bf-42d8-acee-4005f787b995} as the default key.
+2026-02-28 00:46:05.933 +01:00 [DBG] Key ring with default key {31127c11-55bf-42d8-acee-4005f787b995} was loaded during application startup.
+2026-02-28 00:46:05.947 +01:00 [DBG] Middleware loaded
+2026-02-28 00:46:05.955 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-28 00:46:05.958 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-28 00:46:06.149 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-28 00:46:06.154 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-28 00:46:06.161 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-28 00:46:06.357 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-28 00:46:06.360 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-28 00:46:06.362 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-28 00:46:06.364 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-28 00:46:06.365 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-28 00:46:06.367 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-28 00:46:06.377 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:46:06.398 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:46:06.448 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-28 00:46:06.841 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-28 00:46:06.843 +01:00 [INF] Hosting environment: Development
+2026-02-28 00:46:06.845 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-28 00:46:06.850 +01:00 [DBG] Hosting started
+2026-02-28 00:47:28.355 +01:00 [DBG] Connection id "0HNJMBA8EISIV" accepted.
+2026-02-28 00:47:28.358 +01:00 [DBG] Connection id "0HNJMBA8EISIV" started.
+2026-02-28 00:47:28.439 +01:00 [DBG] Connection 0HNJMBA8EISIV established using the following protocol: "Tls13"
+2026-02-28 00:47:28.537 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-28 00:47:28.537 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-02-28 00:47:28.565 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-28 00:47:28.576 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 51.2942ms
+2026-02-28 00:47:28.992 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 469.113ms
+2026-02-28 00:47:29.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-02-28 00:47:29.227 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.2609ms
+2026-02-28 00:47:57.084 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-28 00:47:57.264 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-02-28 00:47:57.278 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-02-28 00:47:57.300 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-02-28 00:47:57.313 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-02-28 00:47:57.313 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-28 00:47:57.316 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-02-28 00:47:57.328 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-28 00:47:57.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.0938ms
+2026-02-28 00:47:57.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 254.3419ms
+2026-02-28 00:47:57.341 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 27.8842ms
+2026-02-28 00:47:57.449 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-02-28 00:47:57.466 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:47:57.477 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-28 00:47:57.481 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-28 00:47:57.509 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.885ms
+2026-02-28 00:48:04.411 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-28 00:48:04.426 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-02-28 00:48:04.429 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-02-28 00:48:04.432 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-02-28 00:48:04.436 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-02-28 00:48:04.442 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 30.8677ms
+2026-02-28 00:48:04.465 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-02-28 00:48:04.470 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-28 00:48:04.518 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-28 00:48:04.524 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 53.7805ms
+2026-02-28 00:48:04.530 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.1386ms
+2026-02-28 00:48:04.561 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-02-28 00:48:04.589 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.8241ms

@@ -1,0 +1,39 @@
+2026-04-06 01:19:01.350 +01:00 [DBG] Connection id "0HNKJE8D84IL0" accepted.
+2026-04-06 01:19:01.360 +01:00 [DBG] Connection id "0HNKJE8D84IL0" started.
+2026-04-06 01:19:01.361 +01:00 [DBG] Connection id "0HNKJE8D84IL1" accepted.
+2026-04-06 01:19:01.366 +01:00 [DBG] Connection id "0HNKJE8D84IL1" started.
+2026-04-06 01:19:01.470 +01:00 [DBG] Connection id "0HNKJE8D84IL1" received FIN.
+2026-04-06 01:19:01.519 +01:00 [DBG] Connection 0HNKJE8D84IL0 established using the following protocol: "Tls13"
+2026-04-06 01:19:01.519 +01:00 [DBG] Connection 0HNKJE8D84IL1 established using the following protocol: "Tls13"
+2026-04-06 01:19:01.593 +01:00 [DBG] Connection id "0HNKJE8D84IL1" is closed. The last processed stream ID was 0.
+2026-04-06 01:19:01.602 +01:00 [DBG] Connection id "0HNKJE8D84IL1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-04-06 01:19:01.611 +01:00 [DBG] The connection queue processing loop for 0HNKJE8D84IL1 completed.
+2026-04-06 01:19:01.627 +01:00 [DBG] Connection id "0HNKJE8D84IL1" stopped.
+2026-04-06 01:19:01.705 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-04-06 01:19:02.114 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-04-06 01:19:02.123 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-04-06 01:19:02.159 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-04-06 01:19:02.165 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-04-06 01:19:02.174 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 480.5169ms
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.css - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.js - null null
+2026-04-06 01:19:02.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - null null
+2026-04-06 01:19:02.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.css - 200 152 text/css 35.1218ms
+2026-04-06 01:19:02.227 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.js - 200 null application/javascript;charset=utf-8 49.0315ms
+2026-04-06 01:19:02.233 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-04-06 01:19:02.240 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - 200 26248 text/css 62.244ms
+2026-04-06 01:19:02.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - 200 77848 text/javascript 83.3768ms
+2026-04-06 01:19:02.298 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 120.1206ms
+2026-04-06 01:19:02.310 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - 200 424871 text/javascript 132ms
+2026-04-06 01:19:02.333 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.617ms
+2026-04-06 01:19:02.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-04-06 01:19:02.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/favicon-32x32.png - null null
+2026-04-06 01:19:02.743 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/favicon-32x32.png - 200 628 image/png 63.2864ms
+2026-04-06 01:19:02.897 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 255.9267ms
+2026-04-06 01:19:02.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/Images/nigeria.jpg - null null
+2026-04-06 01:19:03.099 +01:00 [INF] Sending file. Request path: '/Images/nigeria.jpg'. Physical path: 'C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API\wwwroot\Images\nigeria.jpg'
+2026-04-06 01:19:03.102 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/Images/nigeria.jpg - 200 34513 image/jpeg 105.2468ms

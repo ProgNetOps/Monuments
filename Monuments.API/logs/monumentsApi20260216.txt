@@ -1,0 +1,573 @@
+2026-02-16 03:23:30.301 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:23:30.611 +01:00 [DBG] Hosting starting
+2026-02-16 03:23:30.662 +01:00 [DBG] Middleware loaded
+2026-02-16 03:23:30.674 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:23:30.682 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:23:30.980 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:23:30.986 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:23:30.992 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:23:31.164 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:23:31.167 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:23:31.168 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:23:31.170 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:23:31.172 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:23:31.174 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:23:31.186 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:23:31.189 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:23:31.232 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:23:31.587 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:23:31.595 +01:00 [INF] Hosting environment: Development
+2026-02-16 03:23:31.596 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:23:31.600 +01:00 [DBG] Hosting started
+2026-02-16 03:27:48.273 +01:00 [DBG] Connection id "0HNJD0BSTUPES" accepted.
+2026-02-16 03:27:48.276 +01:00 [DBG] Connection id "0HNJD0BSTUPES" started.
+2026-02-16 03:27:48.286 +01:00 [DBG] Connection id "0HNJD0BSTUPET" accepted.
+2026-02-16 03:27:48.289 +01:00 [DBG] Connection id "0HNJD0BSTUPET" started.
+2026-02-16 03:27:48.422 +01:00 [DBG] Connection id "0HNJD0BSTUPES" received FIN.
+2026-02-16 03:27:48.453 +01:00 [DBG] Connection 0HNJD0BSTUPET established using the following protocol: "Tls13"
+2026-02-16 03:27:48.453 +01:00 [DBG] Connection 0HNJD0BSTUPES established using the following protocol: "Tls13"
+2026-02-16 03:27:48.505 +01:00 [DBG] Connection id "0HNJD0BSTUPES" is closed. The last processed stream ID was 0.
+2026-02-16 03:27:48.516 +01:00 [DBG] Connection id "0HNJD0BSTUPES" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-16 03:27:48.523 +01:00 [DBG] The connection queue processing loop for 0HNJD0BSTUPES completed.
+2026-02-16 03:27:48.534 +01:00 [DBG] Connection id "0HNJD0BSTUPES" stopped.
+2026-02-16 03:27:48.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:27:49.025 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-02-16 03:27:49.048 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-02-16 03:27:49.116 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-02-16 03:27:49.126 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-02-16 03:27:49.133 +01:00 [DBG] Connection id "0HNJD0BSTUPET" received FIN.
+2026-02-16 03:27:49.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 554.367ms
+2026-02-16 03:27:49.135 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" accepted.
+2026-02-16 03:27:49.137 +01:00 [DBG] Connection id "0HNJD0BSTUPET" is closed. The last processed stream ID was 1.
+2026-02-16 03:27:49.155 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" started.
+2026-02-16 03:27:49.156 +01:00 [DBG] The connection queue processing loop for 0HNJD0BSTUPET completed.
+2026-02-16 03:27:49.157 +01:00 [DBG] Connection id "0HNJD0BSTUPET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-16 03:27:49.165 +01:00 [DBG] Connection 0HNJD0BSTUPEU established using the following protocol: "Tls13"
+2026-02-16 03:27:49.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.css - null null
+2026-02-16 03:27:49.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - null null
+2026-02-16 03:27:49.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.js - null null
+2026-02-16 03:27:49.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - null null
+2026-02-16 03:27:49.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-16 03:27:49.206 +01:00 [DBG] Connection id "0HNJD0BSTUPET" stopped.
+2026-02-16 03:27:49.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - null null
+2026-02-16 03:27:49.208 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-02-16 03:27:49.249 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.js - 200 null application/javascript;charset=utf-8 74.2354ms
+2026-02-16 03:27:49.267 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - 304 null null 93.1876ms
+2026-02-16 03:27:49.287 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - 304 null null 112.8804ms
+2026-02-16 03:27:49.335 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - 304 null null 160.5415ms
+2026-02-16 03:27:49.267 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.css - 304 null null 93.7304ms
+2026-02-16 03:27:49.315 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-16 03:27:49.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 242.4223ms
+2026-02-16 03:27:49.442 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.9518ms
+2026-02-16 03:27:49.602 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-02-16 03:27:49.638 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.6462ms
+2026-02-16 03:27:49.649 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/favicon-32x32.png - null null
+2026-02-16 03:27:49.736 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/favicon-32x32.png - 304 null null 87.0444ms
+2026-02-16 03:28:04.371 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7055/api/cities/1/monuments/1 - null null
+2026-02-16 03:28:04.458 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/monuments/1'
+2026-02-16 03:28:04.484 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)' with route pattern 'api/cities/{cityId}/monuments/{monumentId}' is valid for the request path '/api/cities/1/monuments/1'
+2026-02-16 03:28:04.490 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:04.502 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:04.556 +01:00 [INF] Route matched with {action = "DeleteMonument", controller = "Monuments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteMonument(Int32, Int32) on controller Monuments.API.Controllers.MonumentsController (Monuments.API).
+2026-02-16 03:28:04.566 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-16 03:28:04.573 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-02-16 03:28:04.580 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-16 03:28:04.588 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-16 03:28:04.593 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-16 03:28:04.606 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:28:04.618 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:28:04.649 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:28:04.659 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2026-02-16 03:28:04.672 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:04.683 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:04.691 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:28:04.702 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:04.713 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:28:04.719 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' using the name 'monumentId' in request data ...
+2026-02-16 03:28:04.729 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:04.735 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:04.742 +01:00 [DBG] Attempting to validate the bound parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:28:04.751 +01:00 [DBG] Done attempting to validate the bound parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:04.770 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-02-16 03:28:04.783 +01:00 [INF] Executed action Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API) in 175.238ms
+2026-02-16 03:28:04.790 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:04.797 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7055/api/cities/1/monuments/1 - 204 null null 426.3226ms
+2026-02-16 03:28:14.692 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7055/api/cities/1/monuments/1 - null null
+2026-02-16 03:28:14.703 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/monuments/1'
+2026-02-16 03:28:14.706 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)' with route pattern 'api/cities/{cityId}/monuments/{monumentId}' is valid for the request path '/api/cities/1/monuments/1'
+2026-02-16 03:28:14.715 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:14.720 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:14.725 +01:00 [INF] Route matched with {action = "DeleteMonument", controller = "Monuments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteMonument(Int32, Int32) on controller Monuments.API.Controllers.MonumentsController (Monuments.API).
+2026-02-16 03:28:14.739 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-16 03:28:14.756 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-02-16 03:28:14.765 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-16 03:28:14.772 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-16 03:28:14.779 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-16 03:28:14.785 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:28:14.790 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:28:14.799 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:28:14.803 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2026-02-16 03:28:14.809 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:14.817 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:14.821 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:28:14.826 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:28:14.834 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:28:14.839 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' using the name 'monumentId' in request data ...
+2026-02-16 03:28:14.849 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:14.852 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:14.855 +01:00 [DBG] Attempting to validate the bound parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:28:14.867 +01:00 [DBG] Done attempting to validate the bound parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:28:14.877 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2026-02-16 03:28:14.888 +01:00 [DBG] No information found on request to perform content negotiation.
+2026-02-16 03:28:14.893 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-02-16 03:28:14.902 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-02-16 03:28:14.909 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-02-16 03:28:15.184 +01:00 [INF] Executed action Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API) in 398.9999ms
+2026-02-16 03:28:15.193 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:28:15.202 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7055/api/cities/1/monuments/1 - 404 162 application/problem+json; charset=utf-8 509.8616ms
+2026-02-16 03:28:52.646 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" received FIN.
+2026-02-16 03:28:52.652 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" is closed. The last processed stream ID was 21.
+2026-02-16 03:28:52.652 +01:00 [DBG] The connection queue processing loop for 0HNJD0BSTUPEU completed.
+2026-02-16 03:28:52.655 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-16 03:28:52.662 +01:00 [DBG] Connection id "0HNJD0BSTUPEU" stopped.
+2026-02-16 03:29:24.978 +01:00 [DBG] Connection id "0HNJD0BSTUPEV" accepted.
+2026-02-16 03:29:24.983 +01:00 [DBG] Connection id "0HNJD0BSTUPEV" started.
+2026-02-16 03:29:24.990 +01:00 [DBG] Connection 0HNJD0BSTUPEV established using the following protocol: "Tls13"
+2026-02-16 03:29:24.993 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7055/api/cities/3/monuments/1 - null null
+2026-02-16 03:29:25.008 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/3/monuments/1'
+2026-02-16 03:29:25.013 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)' with route pattern 'api/cities/{cityId}/monuments/{monumentId}' is valid for the request path '/api/cities/3/monuments/1'
+2026-02-16 03:29:25.018 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:29:25.023 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:29:25.028 +01:00 [INF] Route matched with {action = "DeleteMonument", controller = "Monuments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteMonument(Int32, Int32) on controller Monuments.API.Controllers.MonumentsController (Monuments.API).
+2026-02-16 03:29:25.036 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-16 03:29:25.042 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-02-16 03:29:25.047 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-16 03:29:25.053 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-16 03:29:25.060 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-16 03:29:25.068 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:29:25.073 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:29:25.080 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:29:25.086 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2026-02-16 03:29:25.092 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:29:25.101 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:29:25.109 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:29:25.121 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:29:25.127 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:29:25.132 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' using the name 'monumentId' in request data ...
+2026-02-16 03:29:25.138 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:29:25.143 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:29:25.147 +01:00 [DBG] Attempting to validate the bound parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:29:25.151 +01:00 [DBG] Done attempting to validate the bound parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:29:25.158 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-02-16 03:29:25.162 +01:00 [INF] Executed action Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API) in 94.4461ms
+2026-02-16 03:29:25.166 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:29:25.169 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7055/api/cities/3/monuments/1 - 204 null null 175.5366ms
+2026-02-16 03:30:07.563 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7055/api/cities/2/monuments/1 - null null
+2026-02-16 03:30:07.570 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/2/monuments/1'
+2026-02-16 03:30:07.573 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)' with route pattern 'api/cities/{cityId}/monuments/{monumentId}' is valid for the request path '/api/cities/2/monuments/1'
+2026-02-16 03:30:07.576 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:30:07.583 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:30:07.586 +01:00 [INF] Route matched with {action = "DeleteMonument", controller = "Monuments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteMonument(Int32, Int32) on controller Monuments.API.Controllers.MonumentsController (Monuments.API).
+2026-02-16 03:30:07.592 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-16 03:30:07.600 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-02-16 03:30:07.615 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-16 03:30:07.626 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-16 03:30:07.636 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-16 03:30:07.642 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:30:07.648 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:30:07.653 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:30:07.658 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2026-02-16 03:30:07.665 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:30:07.670 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:30:07.675 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:30:07.682 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:30:07.687 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:30:07.692 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' using the name 'monumentId' in request data ...
+2026-02-16 03:30:07.700 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:30:07.706 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:30:07.710 +01:00 [DBG] Attempting to validate the bound parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:30:07.716 +01:00 [DBG] Done attempting to validate the bound parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:30:07.721 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-02-16 03:30:07.725 +01:00 [INF] Executed action Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API) in 83.6555ms
+2026-02-16 03:30:07.732 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:30:07.736 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7055/api/cities/2/monuments/1 - 204 null null 173.3819ms
+2026-02-16 03:30:37.635 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:30:37.987 +01:00 [DBG] Hosting starting
+2026-02-16 03:30:38.023 +01:00 [DBG] Middleware loaded
+2026-02-16 03:30:38.033 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:30:38.036 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:30:38.109 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:30:38.116 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:30:38.122 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:30:38.268 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:30:38.273 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:30:38.274 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:30:38.276 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:30:38.279 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:30:38.280 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:30:38.292 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:30:38.297 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:30:38.332 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:30:38.716 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:30:38.719 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:30:38.721 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:30:38.724 +01:00 [DBG] Hosting started
+2026-02-16 03:31:03.654 +01:00 [DBG] Connection id "0HNJD0DN58MD4" accepted.
+2026-02-16 03:31:03.664 +01:00 [DBG] Connection id "0HNJD0DN58MD4" started.
+2026-02-16 03:31:03.801 +01:00 [DBG] Connection 0HNJD0DN58MD4 established using the following protocol: "Tls13"
+2026-02-16 03:31:03.921 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:31:04.235 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:31:04.241 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:31:04.260 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 356.2286ms
+2026-02-16 03:31:04.302 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:31:19.972 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:31:20.287 +01:00 [DBG] Hosting starting
+2026-02-16 03:31:20.326 +01:00 [DBG] Middleware loaded
+2026-02-16 03:31:20.337 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:31:20.341 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:31:20.433 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:31:20.440 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:31:20.448 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:31:20.730 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:31:20.734 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:31:20.737 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:31:20.739 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:31:20.741 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:31:20.743 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:31:20.768 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:31:20.774 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:31:20.805 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:31:20.930 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:31:20.937 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:31:20.938 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:31:20.940 +01:00 [DBG] Hosting started
+2026-02-16 03:31:39.489 +01:00 [DBG] Connection id "0HNJD0E1R0B13" accepted.
+2026-02-16 03:31:39.494 +01:00 [DBG] Connection id "0HNJD0E1R0B13" started.
+2026-02-16 03:31:39.621 +01:00 [DBG] Connection 0HNJD0E1R0B13 established using the following protocol: "Tls13"
+2026-02-16 03:31:39.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:31:40.034 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:31:40.040 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:31:40.060 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 326.3455ms
+2026-02-16 03:31:40.083 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:31:43.060 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:31:43.085 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:31:43.089 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:31:43.092 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 32.2491ms
+2026-02-16 03:31:43.104 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:31:52.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:31:52.497 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:31:52.500 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:31:52.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 21.1878ms
+2026-02-16 03:31:52.509 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:31:54.286 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:31:54.316 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:31:54.322 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:31:54.333 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 47.5911ms
+2026-02-16 03:31:54.343 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:32:23.855 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:32:23.882 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:32:23.885 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:32:23.888 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 32.9005ms
+2026-02-16 03:32:23.906 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:32:25.950 +01:00 [DBG] Connection id "0HNJD0E1R0B13" received FIN.
+2026-02-16 03:32:25.971 +01:00 [DBG] Connection id "0HNJD0E1R0B13" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-16 03:32:25.973 +01:00 [DBG] Connection id "0HNJD0E1R0B13" is closed. The last processed stream ID was 9.
+2026-02-16 03:32:25.980 +01:00 [DBG] The connection queue processing loop for 0HNJD0E1R0B13 completed.
+2026-02-16 03:32:25.990 +01:00 [DBG] Connection id "0HNJD0E1R0B13" stopped.
+2026-02-16 03:32:37.852 +01:00 [DBG] Connection id "0HNJD0E1R0B14" accepted.
+2026-02-16 03:32:37.858 +01:00 [DBG] Connection id "0HNJD0E1R0B14" started.
+2026-02-16 03:32:37.871 +01:00 [DBG] Connection 0HNJD0E1R0B14 established using the following protocol: "Tls13"
+2026-02-16 03:32:37.874 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:32:37.886 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:32:37.907 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:32:37.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 34.0852ms
+2026-02-16 03:32:37.918 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:32:37.966 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:32:37.978 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:32:37.987 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:32:37.988 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 22.5605ms
+2026-02-16 03:32:38.008 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:32:38.258 +01:00 [DBG] Connection id "0HNJD0E1R0B14" received FIN.
+2026-02-16 03:32:38.269 +01:00 [DBG] Connection id "0HNJD0E1R0B14" is closed. The last processed stream ID was 3.
+2026-02-16 03:32:38.269 +01:00 [DBG] The connection queue processing loop for 0HNJD0E1R0B14 completed.
+2026-02-16 03:32:38.271 +01:00 [DBG] Connection id "0HNJD0E1R0B14" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-16 03:32:38.285 +01:00 [DBG] Connection id "0HNJD0E1R0B14" stopped.
+2026-02-16 03:33:23.429 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:33:23.640 +01:00 [DBG] Hosting starting
+2026-02-16 03:33:23.676 +01:00 [DBG] Middleware loaded
+2026-02-16 03:33:23.688 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:33:23.691 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:33:23.778 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:33:23.791 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:33:23.799 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:33:23.977 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:33:23.982 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:33:23.983 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:33:23.985 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:33:23.986 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:33:23.988 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:33:24.000 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:33:24.003 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:33:24.034 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:33:24.470 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:33:24.472 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:33:24.475 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:33:24.481 +01:00 [DBG] Hosting started
+2026-02-16 03:34:25.273 +01:00 [DBG] Connection id "0HNJD0FJ818QR" accepted.
+2026-02-16 03:34:25.292 +01:00 [DBG] Connection id "0HNJD0FJ818QR" started.
+2026-02-16 03:34:25.426 +01:00 [DBG] Connection 0HNJD0FJ818QR established using the following protocol: "Tls13"
+2026-02-16 03:34:25.577 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:34:25.891 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:34:25.895 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:34:25.920 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 357.2511ms
+2026-02-16 03:34:25.971 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:35:27.704 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:35:27.916 +01:00 [DBG] Hosting starting
+2026-02-16 03:35:27.974 +01:00 [DBG] Middleware loaded
+2026-02-16 03:35:27.988 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:35:27.991 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:35:28.158 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:35:28.165 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:35:28.174 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:35:28.331 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:35:28.334 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:35:28.336 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:35:28.337 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:35:28.339 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:35:28.342 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:35:28.368 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:35:28.395 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:35:28.428 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:35:28.794 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:35:28.798 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:35:28.800 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:35:28.802 +01:00 [DBG] Hosting started
+2026-02-16 03:35:43.345 +01:00 [DBG] Connection id "0HNJD0GAGJKIG" accepted.
+2026-02-16 03:35:43.351 +01:00 [DBG] Connection id "0HNJD0GAGJKIG" started.
+2026-02-16 03:35:43.462 +01:00 [DBG] Connection 0HNJD0GAGJKIG established using the following protocol: "Tls13"
+2026-02-16 03:35:43.587 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:35:43.916 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:35:43.922 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:35:43.956 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 383.3769ms
+2026-02-16 03:35:43.968 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:36:54.382 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:36:54.831 +01:00 [DBG] Hosting starting
+2026-02-16 03:36:54.890 +01:00 [DBG] Middleware loaded
+2026-02-16 03:36:54.898 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:36:54.901 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:36:55.095 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:36:55.104 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:36:55.118 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:36:55.320 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:36:55.323 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:36:55.325 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:36:55.326 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:36:55.328 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:36:55.332 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:36:55.343 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:36:55.349 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:36:55.452 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:36:55.676 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:36:55.691 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:36:55.692 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:36:55.712 +01:00 [DBG] Hosting started
+2026-02-16 03:37:14.585 +01:00 [DBG] Connection id "0HNJD0H5MNCTJ" accepted.
+2026-02-16 03:37:14.590 +01:00 [DBG] Connection id "0HNJD0H5MNCTJ" started.
+2026-02-16 03:37:14.741 +01:00 [DBG] Connection 0HNJD0H5MNCTJ established using the following protocol: "Tls13"
+2026-02-16 03:37:14.878 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:37:15.188 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:37:15.194 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:37:15.217 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 350.3819ms
+2026-02-16 03:37:15.236 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:37:18.841 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:37:18.872 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:37:18.875 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:37:18.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 37.9946ms
+2026-02-16 03:37:18.901 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:40:04.835 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:40:05.185 +01:00 [DBG] Hosting starting
+2026-02-16 03:40:05.225 +01:00 [DBG] Middleware loaded
+2026-02-16 03:40:05.237 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:40:05.240 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:40:05.492 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:40:05.503 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:40:05.520 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:40:05.725 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:40:05.727 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:40:05.729 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:40:05.731 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:40:05.733 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:40:05.735 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:40:05.750 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:40:05.754 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:40:05.789 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:40:06.330 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:40:06.334 +01:00 [INF] Hosting environment: Development
+2026-02-16 03:40:06.338 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:40:06.342 +01:00 [DBG] Hosting started
+2026-02-16 03:41:23.742 +01:00 [DBG] Connection id "0HNJD0JFUS8M8" accepted.
+2026-02-16 03:41:23.758 +01:00 [DBG] Connection id "0HNJD0JFUS8M8" started.
+2026-02-16 03:41:23.891 +01:00 [DBG] Connection 0HNJD0JFUS8M8 established using the following protocol: "Tls13"
+2026-02-16 03:41:24.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:41:24.343 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:41:24.355 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:41:24.379 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 374.7324ms
+2026-02-16 03:41:24.394 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:41:51.107 +01:00 [DBG] Config reload token fired. Checking for changes...
+2026-02-16 03:41:51.111 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:41:51.116 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:41:51.384 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:41:51.386 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:41:51.389 +01:00 [DBG] Config reload token fired. Checking for changes...
+2026-02-16 03:52:16.031 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:52:16.823 +01:00 [DBG] Hosting starting
+2026-02-16 03:52:16.861 +01:00 [DBG] Middleware loaded
+2026-02-16 03:52:16.870 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:52:16.873 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:52:16.939 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:52:16.945 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:52:16.954 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:52:17.108 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:52:17.111 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:52:17.112 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:52:17.114 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:52:17.115 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:52:17.116 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:52:17.131 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:52:17.136 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:52:17.177 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:52:17.544 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:52:17.580 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:52:17.606 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:52:17.836 +01:00 [DBG] Hosting started
+2026-02-16 03:53:01.540 +01:00 [DBG] Connection id "0HNJD0PVTJC9K" accepted.
+2026-02-16 03:53:01.546 +01:00 [DBG] Connection id "0HNJD0PVTJC9K" started.
+2026-02-16 03:53:01.702 +01:00 [DBG] Connection 0HNJD0PVTJC9K established using the following protocol: "Tls13"
+2026-02-16 03:53:01.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-02-16 03:53:02.193 +01:00 [DBG] No candidates found for the request path '/'
+2026-02-16 03:53:02.200 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:53:02.219 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 404 null null 403.1344ms
+2026-02-16 03:53:02.232 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/, Response status code: 404
+2026-02-16 03:53:08.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:53:08.875 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:53:08.880 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:53:08.896 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 47.0835ms
+2026-02-16 03:53:08.905 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:53:13.530 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:53:13.545 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:53:13.548 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:53:13.550 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 21.6534ms
+2026-02-16 03:53:13.562 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:53:14.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:53:15.013 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-02-16 03:53:15.016 +01:00 [DBG] Request did not match any endpoints
+2026-02-16 03:53:15.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 404 null null 25.9753ms
+2026-02-16 03:53:15.032 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/swagger/index.html, Response status code: 404
+2026-02-16 03:54:01.053 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:54:01.362 +01:00 [DBG] Hosting starting
+2026-02-16 03:54:01.398 +01:00 [DBG] Middleware loaded
+2026-02-16 03:54:01.407 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:54:01.410 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:54:01.652 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:54:01.657 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:54:01.705 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:54:01.851 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:54:01.857 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:54:01.860 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:54:01.862 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:54:01.864 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:54:01.866 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:54:01.881 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:54:01.887 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:54:01.947 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:54:02.428 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:54:02.433 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:54:02.439 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:54:02.442 +01:00 [DBG] Hosting started
+2026-02-16 03:54:19.947 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:54:20.225 +01:00 [DBG] Hosting starting
+2026-02-16 03:54:20.279 +01:00 [DBG] Middleware loaded
+2026-02-16 03:54:20.289 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:54:20.292 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:54:20.457 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:54:20.463 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:54:20.472 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:54:20.648 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:54:20.653 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:54:20.654 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:54:20.656 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:54:20.658 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:54:20.660 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:54:20.678 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:54:20.682 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:54:20.745 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:54:20.972 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:54:20.974 +01:00 [INF] Hosting environment: Production
+2026-02-16 03:54:20.977 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:54:20.978 +01:00 [DBG] Hosting started
+2026-02-16 03:55:42.565 +01:00 [DBG] Connection id "0HNJD0RFT879P" accepted.
+2026-02-16 03:55:42.573 +01:00 [DBG] Connection id "0HNJD0RFT879P" started.
+2026-02-16 03:55:42.722 +01:00 [DBG] Connection 0HNJD0RFT879P established using the following protocol: "Tls13"
+2026-02-16 03:55:42.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2026-02-16 03:55:43.278 +01:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-02-16 03:55:43.298 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-02-16 03:55:43.357 +01:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-02-16 03:55:43.364 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-02-16 03:55:43.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-16 03:55:43.381 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 541.6874ms
+2026-02-16 03:55:43.414 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-02-16 03:55:43.418 +01:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-16 03:55:43.430 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 49.843ms
+2026-02-16 03:55:43.499 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.8336ms
+2026-02-16 03:55:43.677 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2026-02-16 03:55:43.724 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.3222ms
+2026-02-16 03:56:01.162 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7055/api/cities/5/monuments/2 - null null
+2026-02-16 03:56:01.282 +01:00 [DBG] 1 candidate(s) found for the request path '/api/cities/5/monuments/2'
+2026-02-16 03:56:01.289 +01:00 [DBG] Endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)' with route pattern 'api/cities/{cityId}/monuments/{monumentId}' is valid for the request path '/api/cities/5/monuments/2'
+2026-02-16 03:56:01.296 +01:00 [DBG] Request matched endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:56:01.310 +01:00 [INF] Executing endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:56:01.355 +01:00 [INF] Route matched with {action = "DeleteMonument", controller = "Monuments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteMonument(Int32, Int32) on controller Monuments.API.Controllers.MonumentsController (Monuments.API).
+2026-02-16 03:56:01.372 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-16 03:56:01.393 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-02-16 03:56:01.398 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-16 03:56:01.406 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-16 03:56:01.412 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-16 03:56:01.424 +01:00 [DBG] Executing controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:56:01.437 +01:00 [DBG] Executed controller factory for controller Monuments.API.Controllers.MonumentsController (Monuments.API)
+2026-02-16 03:56:01.461 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:56:01.474 +01:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2026-02-16 03:56:01.480 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:56:01.489 +01:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:56:01.493 +01:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2026-02-16 03:56:01.505 +01:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2026-02-16 03:56:01.512 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:56:01.518 +01:00 [DBG] Attempting to bind parameter 'monumentId' of type 'System.Int32' using the name 'monumentId' in request data ...
+2026-02-16 03:56:01.526 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:56:01.532 +01:00 [DBG] Done attempting to bind parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:56:01.542 +01:00 [DBG] Attempting to validate the bound parameter 'monumentId' of type 'System.Int32' ...
+2026-02-16 03:56:01.547 +01:00 [DBG] Done attempting to validate the bound parameter 'monumentId' of type 'System.Int32'.
+2026-02-16 03:56:01.566 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-02-16 03:56:01.583 +01:00 [INF] Executed action Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API) in 157.024ms
+2026-02-16 03:56:01.608 +01:00 [INF] Executed endpoint 'Monuments.API.Controllers.MonumentsController.DeleteMonument (Monuments.API)'
+2026-02-16 03:56:01.612 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7055/api/cities/5/monuments/2 - 204 null null 450.8634ms
+2026-02-16 03:57:52.572 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-16 03:57:52.837 +01:00 [DBG] Hosting starting
+2026-02-16 03:57:52.893 +01:00 [DBG] Middleware loaded
+2026-02-16 03:57:52.905 +01:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2026-02-16 03:57:52.909 +01:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-16 03:57:53.250 +01:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-16 03:57:53.301 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-16 03:57:53.323 +01:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-16 03:57:53.590 +01:00 [INF] Now listening on: https://localhost:7055
+2026-02-16 03:57:53.596 +01:00 [INF] Now listening on: http://localhost:5015
+2026-02-16 03:57:53.599 +01:00 [DBG] Loaded hosting startup assembly Monuments.API
+2026-02-16 03:57:53.604 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-16 03:57:53.608 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-16 03:57:53.611 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-16 03:57:53.645 +01:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:57:53.652 +01:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-16 03:57:53.714 +01:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v10.0.2.0.
+2026-02-16 03:57:54.145 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 03:57:54.147 +01:00 [INF] Hosting environment: Development
+2026-02-16 03:57:54.150 +01:00 [INF] Content root path: C:\Users\suber\Desktop\APP PROG INT\Monuments\Monuments.API
+2026-02-16 03:57:54.154 +01:00 [DBG] Hosting started
