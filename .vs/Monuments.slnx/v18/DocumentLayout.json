@@ -42,11 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:63063955:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -62,8 +66,7 @@
               "RelativeToolTip": "Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T01:04:33.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T01:04:33.827Z"
             },
             {
               "$type": "Document",
@@ -73,7 +76,7 @@
               "RelativeDocumentMoniker": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "RelativeToolTip": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T00:24:20.508Z",
               "EditorCaption": ""
@@ -88,8 +91,7 @@
               "RelativeToolTip": "Monuments.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T19:41:48.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T19:41:48.8Z"
             },
             {
               "$type": "Document",
@@ -101,8 +103,7 @@
               "RelativeToolTip": "Monuments.API\\GlobalUsings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T00:59:28.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T00:59:28.931Z"
             },
             {
               "$type": "Document",

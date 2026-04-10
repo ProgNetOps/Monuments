@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\extensions\\startuphelperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\controllers\\monumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OpenAPISwaggerExtensions.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
@@ -72,14 +72,14 @@
               "RelativeDocumentMoniker": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "RelativeToolTip": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvzIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T00:24:20.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Program.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Program.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Monuments.API\\GlobalUsings.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FilesController.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\FilesController.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Controllers\\FilesController.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Monuments.API\\Properties\\launchSettings.json",
