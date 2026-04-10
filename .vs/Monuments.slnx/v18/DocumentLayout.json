@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\",
+  "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\extensions\\startuphelperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\extensions\\startuphelperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\extensions\\startuphelperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\controllers\\monumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\controllers\\monumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\controllers\\monumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app prog int\\monuments\\monuments.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|c:\\users\\suber\\desktop\\app_repo\\monuments\\monuments.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B182CECD-B0B5-BB69-F6F8-CC638F22C3DE}|Monuments.API\\Monuments.API.csproj|solutionrelative:monuments.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,15 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:63063955:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -60,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "OpenAPISwaggerExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
               "RelativeToolTip": "Monuments.API\\Extensions\\OpenAPISwaggerExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,11 +68,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StartupHelperExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Extensions\\StartupHelperExtensions.cs",
               "RelativeToolTip": "Monuments.API\\Extensions\\StartupHelperExtensions.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T00:24:20.508Z",
               "EditorCaption": ""
@@ -85,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Program.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Program.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Program.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Program.cs",
               "RelativeToolTip": "Monuments.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Monuments.API\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\GlobalUsings.cs",
               "RelativeToolTip": "Monuments.API\\GlobalUsings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FilesController.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\FilesController.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Controllers\\FilesController.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\FilesController.cs",
               "RelativeToolTip": "Monuments.API\\Controllers\\FilesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Monuments.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "Monuments.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -133,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MonumentsController.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\MonumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\MonumentsController.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Controllers\\MonumentsController.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\MonumentsController.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\MonumentsController.cs",
               "RelativeToolTip": "Monuments.API\\Controllers\\MonumentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +141,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "Monuments.API\\Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "Monuments.API\\Controllers\\CitiesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

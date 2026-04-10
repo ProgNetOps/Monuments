@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Monuments.API.csproj": {}
+    "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Monuments.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Monuments.API.csproj": {
+    "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Monuments.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Monuments.API.csproj",
+        "projectUniqueName": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Monuments.API.csproj",
         "projectName": "Monuments.API",
-        "projectPath": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\Monuments.API.csproj",
+        "projectPath": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\Monuments.API.csproj",
         "packagesPath": "C:\\Users\\suber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suber\\Desktop\\APP PROG INT\\Monuments\\Monuments.API\\obj\\",
+        "outputPath": "C:\\Users\\suber\\Desktop\\APP_REPO\\Monuments\\Monuments.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

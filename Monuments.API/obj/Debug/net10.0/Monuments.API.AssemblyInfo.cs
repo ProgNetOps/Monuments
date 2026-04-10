@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Monuments.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+128f5172593d83e26200857103f783c9bae6bd09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf2e4fea8622affa628720f13f142ce649fe8442")]
 [assembly: System.Reflection.AssemblyProductAttribute("Monuments.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Monuments.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
